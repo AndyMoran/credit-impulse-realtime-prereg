@@ -1,0 +1,9 @@
+{
+  "release_url": "https://github.com/AndyMoran/credit-impulse-realtime-prereg/releases/tag/v1.0-lock",
+  "tag": "v1.0-lock",
+  "tag_commit": "4eb084fb2c462fffec72574f108043ea9d796cc9",
+  "doi": "10.5281/zenodo.23477871",
+  "published_utc": "2026-10-19T14:55Z",
+  "bundle_sha256": "5da92075f7c13c94cc1fa6f47d8b00b81d21388349dc80d41b10acf0b63e3ba9",
+  "verified": "MANIFEST.txt, code/phase2/phase2.py, protocol/protocol_v2.3.md at the tag commit match the bundle (SHA-256), checked 19 Oct 2026"
+}
