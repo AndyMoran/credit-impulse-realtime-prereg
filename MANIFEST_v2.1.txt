@@ -1,7 +1,8 @@
-3b7d928f5608006027ab9f6627208e5c67676cde4123fd0263a9376cf1de6bad  .github/ISSUE_TEMPLATE/verification.md
+# SHA-256 of every file in release v2.1 as committed (commit 2510c83). Corrected 20 Oct 2026: REPLICATION.md (raw-input sentence completed) and the issue template (re-committed) differ from the copies inside the attached bundle zip.
+3b9e520cdb23d2655ef9fe287b65369cc872c983544eb3e5619eff3c64765e3c  .github/ISSUE_TEMPLATE/verification.md
 7edb28a90208f9a6df30836f1a2841be49af92bf4dcd67aecd1a685d790eec94  DEVIATIONS.md
 60fb9edfffebd8d9bc3aa0464dd33bad3da50332160549f5c896ac0ccbdc44b4  README_v2.1.md
-e692fcdf8ec82ffe0a26c9d3936cab748eaad8433f09406a08c1697b3a9fcada  REPLICATION.md
+a27719b72d615a02ed92ee4db727f3e1552decc79ce1312535d0237075060d81  REPLICATION.md
 f82209994ad24a7a61906cc484a0a3ad92baa80f2989aac05a330790d758cebc  checks/verification_report_v2.md
 0c3975d9c89e27c6f7b4bfd9bcd0b35bf77a1b9f44da30f850340b89c10efb99  code_post_lock/calibrate.py
 32aeb6c6d399bc7237d105219f59f7aea2a7889c20373d58252b8c83003e8e71  code_post_lock/calibrated_intervals.py
