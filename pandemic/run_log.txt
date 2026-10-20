@@ -1,0 +1,28 @@
+/usr/local/lib/python3.13/dist-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+/usr/local/lib/python3.13/dist-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+{
+ "P1a": {
+  "n": 8,
+  "ratio": 0.9919407744530148,
+  "mean_error_benchmark": -1.0011270755241997,
+  "mean_error_credit": -0.8025894473465423,
+  "extended_ratio": 1.014275018015376
+ },
+ "P1b": {
+  "n": 8,
+  "ratio": 0.9100109895621982,
+  "mean_error_benchmark": -0.01568811740354281,
+  "mean_error_credit": -0.1892396301872905,
+  "extended_ratio": 0.9246522164846139
+ },
+ "P2a": {
+  "n": 8,
+  "ratio": 0.9989220025992711,
+  "mean_error_benchmark": -1.3912373579987096,
+  "mean_error_credit": -1.3355719688319676,
+  "extended_ratio": 1.0042384399045134
+ }
+}
+outputs: ['P1a_pandemic_forecasts.csv', 'P1b_pandemic_forecasts.csv', 'P2a_pandemic_forecasts.csv', 'impulse_2019_2020.csv', 'pandemic_results.json']

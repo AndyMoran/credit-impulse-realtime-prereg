@@ -1,0 +1,41 @@
+{
+ "P1a": {
+  "ratio": 1.106,
+  "locked90": [
+   0.984,
+   1.356
+  ],
+  "inflation": 1.35,
+  "calibrated": [
+   0.941,
+   1.443
+  ],
+  "max_gain_pct": 5.9
+ },
+ "P1b": {
+  "ratio": 1.011,
+  "locked90": [
+   0.994,
+   1.043
+  ],
+  "inflation": 1.75,
+  "calibrated": [
+   0.981,
+   1.067
+  ],
+  "max_gain_pct": 1.9
+ },
+ "P2a": {
+  "ratio": 1.025,
+  "locked90": [
+   0.988,
+   1.076
+  ],
+  "inflation": 2.1,
+  "calibrated": [
+   0.948,
+   1.132
+  ],
+  "max_gain_pct": 5.2
+ }
+}

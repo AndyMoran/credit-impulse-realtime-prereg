@@ -1,0 +1,26 @@
+Verification run 2026-10-20 10:19 UTC
+Python 3.13.16 on Linux-6.18.44-fc-v139-x86_64-with-glibc2.39
+numpy 2.5.3, pandas 3.0.5, scipy 1.18.1, statsmodels 0.15.0, openpyxl 3.1.5
+
+1. Release files against MANIFEST.txt: 41 of 41 match
+2. phase2.py is the locked file: yes (da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e)
+3. Raw inputs against the hashes in MANIFEST.txt:
+   ROUTPUTQvQd.xlsx       match
+   NOUTPUTQvQd.xlsx       match
+   PQvQd.xlsx             match
+   rucQvMd.xlsx           match
+   routput_fst.xlsx       match
+   medianGrowth.xlsx      match
+   medianLevel.xlsx       match
+   SPFmicrodata.xlsx      match
+   spf-caveats.pdf        match
+   GS2.csv                match
+4. LOCK.json names commit 4eb084f and DOI 10.5281/zenodo.23477871: as expected
+
+5. Running the locked analysis once (about a minute) ...
+   finished in 39 s
+
+6. New results.json SHA-256: 9e4239dd116eaea7c9f65df83f85d349f338aeb4adb6ff16904a6793ed6fa99c
+   Identical to the published file: exact reproduction.
+
+OVERALL: PASS

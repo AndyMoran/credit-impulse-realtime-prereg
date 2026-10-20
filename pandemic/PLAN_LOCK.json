@@ -1,0 +1,11 @@
+{
+ "plan": "pandemic/PLAN.md",
+ "plan_sha256": "bd50d8b1ea81fef2a6c3a822c5d18c633aa4f73806853421a8fe3273a338c03f",
+ "script": "code/post_lock/pandemic.py",
+ "script_sha256": "759dbf4fbbb6b4084ed513ead60e8649500e4c16a034f263407be55657862ed6",
+ "commit": "b9a7fc094bb895d9912c2953203b0037e40030f9",
+ "tag": "pandemic-plan",
+ "release_url": "https://github.com/AndyMoran/credit-impulse-realtime-prereg/releases/tag/pandemic-plan",
+ "frozen_utc_approx": "2026-10-20T08:58Z",
+ "verified": "Both files fetched from raw.githubusercontent.com at the commit and at the tag; SHA-256 match, 20 Oct 2026"
+}

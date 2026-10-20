@@ -1,0 +1,18 @@
+Author-run cross-platform re-run (NOT the independent check). Audit log Entry 31.
+Transcribed from the author's PowerShell console, 19 October 2026, 19:20 UTC. The run also wrote
+verification_report_PASS.txt on the author's machine with the same content.
+
+Python 3.13.14 on Windows-11-10.0.26200-SP0
+numpy 2.3.3, pandas 2.3.3, scipy 1.18.1, statsmodels 0.15.0, openpyxl 3.1.5
+
+1. Release files against MANIFEST.txt: 41 of 41 match
+2. phase2.py is the locked file: yes (da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e)
+3. Raw inputs against the hashes in MANIFEST.txt: all 10 match
+4. LOCK.json names commit 4eb084f and DOI 10.5281/zenodo.23477871: as expected
+5. Running the locked analysis once: finished in 43 s
+6. New results.json SHA-256: 8f73920a8e53ccd7876a0e4abf3aeadd9a6078f4d65091555fa75ce00f868736
+   Hash differs from the published file (floating-point rounding, 15th-16th significant digit);
+   all 16 confirmatory quantities (P1a, P1b, P2a, P3: ratio or coefficient, 90% interval, p-value,
+   Holm decision) match within 0.0005; p-values identical.
+
+OVERALL: PASS

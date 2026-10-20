@@ -1,0 +1,96 @@
+{
+ "plan_lock": {
+  "plan": "pandemic/PLAN.md",
+  "plan_sha256": "bd50d8b1ea81fef2a6c3a822c5d18c633aa4f73806853421a8fe3273a338c03f",
+  "script": "code/post_lock/pandemic.py",
+  "script_sha256": "759dbf4fbbb6b4084ed513ead60e8649500e4c16a034f263407be55657862ed6",
+  "commit": "b9a7fc094bb895d9912c2953203b0037e40030f9",
+  "tag": "pandemic-plan",
+  "release_url": "https://github.com/AndyMoran/credit-impulse-realtime-prereg/releases/tag/pandemic-plan",
+  "frozen_utc_approx": "2026-10-20T08:58Z",
+  "verified": "Both files fetched from raw.githubusercontent.com at the commit and at the tag; SHA-256 match, 20 Oct 2026"
+ },
+ "run_utc": "2026-10-20T09:25:21+00:00",
+ "inputs": {
+  "credit_vintages_2020.csv": "db47281bb8ad2d07f505c87c6bdb1eb7b12c1890924b5820cad5835a6bc4835a",
+  "download_log_2020.csv": "ccafdcd5fbd75634fabecf00830d2be22f394e357e7a954fdbf3f8b2e7596334",
+  "spf_deadlines_2020.csv": "e34505d59ca2a908482a3c6d6eafc4be42b16ac43b1744a7edd306bf5e89091f"
+ },
+ "tests": {
+  "P1a": {
+   "eight_targets": {
+    "n": 8,
+    "ratio": 0.9919407744530148,
+    "mean_error_benchmark": -1.0011270755241997,
+    "mean_error_credit": -0.8025894473465423
+   },
+   "wording": "Over the eight pandemic-period targets, the credit model's forecasts were about as accurate as the benchmark's (ratio 0.992). With eight targets dominated by one shock that did not originate in credit, this is an illustration, not evidence about predictive content. It does not alter the pre-registered conclusion.",
+   "extended_1999Q3_2020Q4": {
+    "n": 86,
+    "ratio": 1.014275018015376,
+    "mean_error_benchmark": 0.8414033095113216,
+    "mean_error_credit": 1.0517407932311977
+   },
+   "origins": [
+    "2019Q1",
+    "2019Q2",
+    "2019Q3",
+    "2019Q4",
+    "2020Q1",
+    "2020Q2",
+    "2020Q3",
+    "2020Q4"
+   ]
+  },
+  "P1b": {
+   "eight_targets": {
+    "n": 8,
+    "ratio": 0.9100109895621982,
+    "mean_error_benchmark": -0.01568811740354281,
+    "mean_error_credit": -0.1892396301872905
+   },
+   "wording": "Over the eight pandemic-period targets, the credit model's forecasts were about as accurate as the benchmark's (ratio 0.910). With eight targets dominated by one shock that did not originate in credit, this is an illustration, not evidence about predictive content. It does not alter the pre-registered conclusion.",
+   "extended_1999Q3_2020Q4": {
+    "n": 86,
+    "ratio": 0.9246522164846139,
+    "mean_error_benchmark": 0.030127482098846994,
+    "mean_error_credit": 0.01626489661058793
+   },
+   "origins": [
+    "2019Q1",
+    "2019Q2",
+    "2019Q3",
+    "2019Q4",
+    "2020Q1",
+    "2020Q2",
+    "2020Q3",
+    "2020Q4"
+   ]
+  },
+  "P2a": {
+   "eight_targets": {
+    "n": 8,
+    "ratio": 0.9989220025992711,
+    "mean_error_benchmark": -1.3912373579987096,
+    "mean_error_credit": -1.3355719688319676
+   },
+   "wording": "Over the eight pandemic-period targets, the credit model's forecasts were about as accurate as the benchmark's (ratio 0.999). With eight targets dominated by one shock that did not originate in credit, this is an illustration, not evidence about predictive content. It does not alter the pre-registered conclusion.",
+   "extended_1999Q3_2020Q4": {
+    "n": 86,
+    "ratio": 1.0042384399045134,
+    "mean_error_benchmark": 0.8100080651746799,
+    "mean_error_credit": 0.7731731878375107
+   },
+   "origins": [
+    "2019Q1",
+    "2019Q2",
+    "2019Q3",
+    "2019Q4",
+    "2020Q1",
+    "2020Q2",
+    "2020Q3",
+    "2020Q4"
+   ]
+  }
+ }
+}
