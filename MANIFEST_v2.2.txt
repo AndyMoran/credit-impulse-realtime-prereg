@@ -1,0 +1,8 @@
+# SHA-256 of files added or updated in release v2.2, 22 October 2026
+34fee3fff29419fdf52f11cf0516a5dae1da8f3ef08b9443ee953cc59a544eab  DEVIATIONS.md
+d8fcf56cc2e3aff6592678c0599bed38f9096e6f2ed3cea015be35a1cd0301a8  MANIFEST_v2.1.txt
+9cae8013ad9c33b303aa87ce3d4ac3d8dc677861382d75ddea0707f439400ae8  README_v2.2.md
+b5dc7690ace9891b5ac2350baa2264e47d5412be15ffe8de621b3c134df4a140  REPLICATION.md
+ee6cc63a4383d58a98422f0a5447f3a971fd3bc5c41cad73e7d705cb73b8630c  paper/manuscript_v2.2_2026-10-22.md
+523b18dd26983bde7b4020bf47a1c1390296679e7cc7e14cef8da0f63fc85957  paper/manuscript_v2.2_2026-10-22.pdf
+1b325932942a96319baac404ad18bed6ada035cf483b12b4aa08fdb41eadad25  protocol_post_lock/protocol_v2.3_audit_log_to_entry58.pdf

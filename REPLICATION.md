@@ -1,14 +1,15 @@
 # Replication package: "Did the Credit Impulse Help Forecasters in Real Time? A Preregistered Test, 1999–2019"
 
-Andy Moran (Heaviside Analytics). Package version 2.1, 20 October 2026.
+Andy Moran (Heaviside Analytics). Package version 2.2, 22 October 2026.
 
-The package is split across three GitHub releases of `AndyMoran/credit-impulse-realtime-prereg`. Each release adds folders and none changes an earlier one:
+The package is split across four GitHub releases of `AndyMoran/credit-impulse-realtime-prereg`. Each release adds folders and none changes an earlier one:
 
 | Release | DOI | Contents |
 | --- | --- | --- |
 | `v1.0-lock` | 10.5281/zenodo.23477871 | Locked protocol, all analysis code, real-time credit vintages, `MANIFEST.txt` |
 | `v2.0-results` | 10.5281/zenodo.23479717 | The single locked run (`results/`), Figures 1–6, `figures.py` |
-| `v2.1` (this release) | assigned by Zenodo on publication | Revised paper, post-lock analyses, pandemic-period illustration, verification kit |
+| `v2.1-verification` | 10.5281/zenodo.23497087 | Revised paper, post-lock analyses, pandemic-period illustration, verification kit |
+| `v2.2` (this release) | assigned by Zenodo on publication | Working paper v2.2 (style revision; no result changed), audit log to Entry 58 |
 
 The tag `pandemic-plan` (commit b9a7fc0) freezes the pandemic-period plan and script before any 2020 data were downloaded.
 
@@ -24,7 +25,7 @@ All inputs are public. The author had legitimate access to every one of them, an
 | Federal Reserve Bank of Philadelphia, Survey of Professional Forecasters | Median RGDP growth and UNEMP levels; individual RGDP responses; release-dates file | Same | Hashes in `MANIFEST.txt` and, for the 2020 release-dates file, `pandemic/raw/` |
 | FRED, Federal Reserve Bank of St. Louis | GS2, the two-year Treasury yield, monthly | fred.stlouisfed.org/series/GS2 | Hash in `MANIFEST.txt` |
 
-**Raw-input files for verification.** The ten Philadelphia Fed and FRED files used in the locked run are collected in `raw_inputs_v1.0-lock.zip` (SHA-256 `56ec8466dd5ba9986a82020323327af1c497f91e573c2b5c3ae327c95c87a6f3`), attached to v2.1 release. The Philadelphia Fed files grow every quarter, so a fresh download will not match the recorded hashes once a newer vintage has been added. Use the archived copies.
+**Raw-input files for verification.** The ten Philadelphia Fed and FRED files used in the locked run are collected in `raw_inputs_v1.0-lock.zip` (SHA-256 `56ec8466dd5ba9986a82020323327af1c497f91e573c2b5c3ae327c95c87a6f3`). It is attached to the `v2.1-verification` GitHub release. The Philadelphia Fed files grow every quarter, so a fresh download will not match the recorded hashes once a newer vintage has been added. Use the archived copies.
 
 ## 2. Computational requirements
 
@@ -97,7 +98,7 @@ work/pandemic/                               <- v2.1 pandemic/
 ## 6. Records
 
 - `DEVIATIONS.md` lists every post-lock step, with whether results had been seen.
-- The full audit log (Entries 1–37) is in `protocol_post_lock/`.
+- The full audit log (Entries 1–58) is in `protocol_post_lock/`.
 - `checks/` holds the independent agent check of the manuscript.
 - `verification/` holds the verification kit and the author's own cross-platform re-run (not an independent check).
 

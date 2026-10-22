@@ -2,7 +2,7 @@
 
 Locked: GitHub release `v1.0-lock`, commit 4eb084fb2c462fffec72574f108043ea9d796cc9, 19 Oct 2026 14:55 UTC, DOI 10.5281/zenodo.23477871.
 Nothing in the locked release has been edited. Every entry below was added afterwards and says whether results had been seen.
-The full audit log (Entries 1–37) is in `protocol_post_lock/protocol_v2.3_audit_log_to_entry37.pdf` (release v2.1).
+The full audit log (Entries 1–58) is in `protocol_post_lock/protocol_v2.3_audit_log_to_entry58.pdf` (release v2.2); the version to Entry 37 is in release v2.1.
 
 | Entry | Date (2026) | What | Results seen? |
 |---|---|---|---|
@@ -23,5 +23,26 @@ The full audit log (Entries 1–37) is in `protocol_post_lock/protocol_v2.3_audi
 | 35 | 20 Oct | Pandemic-period run, once. All three tests "about as accurate" as the benchmark over eight targets. | Yes |
 | 36 | 20 Oct | §5.6 written with the plan's pre-written sentences. **Declared deviation:** an explanatory note on one dominant unemployment forecast and on the mechanical pull of the extended ratios towards 1. | Yes |
 | 37 | 20 Oct | Third review adopted: headline language ("no convincing average gain"; modest gains not ruled out), Table 3b relabelled a sensitivity analysis, training-vintage statement and timing example, narrower dataset label, Appendix D on inference and simulation. | Yes |
+| 38 | 20 Oct | Release v2.1 published (DOI 10.5281/zenodo.23497087): revised paper, post-lock analyses, pandemic-period illustration and verification kit. | Yes |
+| 39 | 20 Oct | Style rewrite of the paper (Strunk and White, Zinsser): first person, restructured §5–§6, shorter sentences. Locked passages, tables and numbers checked unchanged by script; an independent agent check found 11 meaning changes, all corrected. | Yes |
+| 40 | 20 Oct | Box 1, "Terms used in this paper", added at the end of §1. | Yes |
+| 41 | 20 Oct | Abstract and introduction revised after reader feedback; "about 50%" corrected to "52%" (S6 ratio 1.522). | Yes |
+| 42 | 20 Oct | Style-sheet pass: positive form, estimates in place of hedging words, active voice. Uncertainty statements kept. | Yes |
+| 43 | 20 Oct | The 10.6% GDP result given more prominence, with the caveat beside it; "gain" defined as a fall in forecast error. | Yes |
+| 44 | 20 Oct | Claims bounded: "a sharp rebound that did not materialise"; the caveat placed beside every statement of the headline; the methods lesson scoped to one predictor path and one simulated process. | Yes |
+| 45 | 20 Oct | Working paper v2.2 prepared for posting: 183-word abstract, title-page DOIs, PDF exported. | Yes |
+| 46 | 20 Oct | Concrete-language pass: the abstract and §1 now open with the benchmark named and the answer "On the 1999–2019 evidence, no", with the 6% caveat in the same sentence; abstract phrasing replaced throughout. An independent agent check found 15 meaning changes, all corrected or reverted. | Yes |
+| 47 | 20 Oct | Abstract power sentence reworded at the author's request (80% power only at a true RMSE ratio of about 0.6); Appendix A no longer states an entry count. | Yes |
+| 48 | 20 Oct | Abstract rewritten as a plain-language summary: the RMSE ratio, interval and power jargon left to the body; the 6% caveat kept in the opening sentence. | Yes |
+| 49 | 22 Oct | Opening answer clarified in the abstract and §1 (verdict, then best estimate with the 6% caveat); abstract split into three paragraphs. | Yes |
+| 50 | 22 Oct | Motivation sentence added to the abstract (revised data, which no forecaster had); version date changed to 22 October 2026. | Yes |
+| 51 | 22 Oct | The 6% caveat in the abstract and §1 now says a small benefit "lies at the edge of what the data allow"; "unlikely" not used, since the intervals do not support a probability statement. | Yes |
+| 52 | 22 Oct | The abstract and §1 now give the GDP result as a best estimate plus a range (about 6% better to 44% worse); §1 adds a three-row table with the locked and widened intervals. | Yes |
+| 53 | 22 Oct | The credit-to-GDP gap defined in plain words in §1, where Edge and Meisenzahl (2011) is cited. | Yes |
+| 54 | 22 Oct | Edge and Meisenzahl sentence in §1 reworded: the gap defined in its own sentence, and the effect of revisions stated plainly ("on trend" can become "well above trend", or the reverse). | Yes |
+| 55 | 22 Oct | Abstract reorganised: all results in the first paragraph; what was built and why in the second, with the long sentence split. | Yes |
+| 56 | 22 Oct | Reader feedback: power and the 6% range reconciled in the abstract, §6 and §7; horizon convention stated in Box 1; gap described as a guide for countercyclical buffers; Barnichon–Nekarda reference completed. DOIs not added (could not be verified). | Yes |
+| 57 | 22 Oct | Framing feedback: the methods lesson named as a case study of the methods actually tested; power and interval claims each qualified; the episode described precisely (variation in the crisis, losses in the recovery forecasts); the turning-point lesson recast as a hypothesis for future testing. | Yes |
+| 58 | 22 Oct | Precision edits: the 6%–44% range labelled a post-lock sensitivity interval; horizon stated as quarter o + 4 in §1 and Box 1; SPF result named as the credit-corrected median SPF forecast (2.5% worse); methods scoped in the §1 contributions. | Yes |
 
 No confirmatory analysis code, specification, sample or decision rule was changed after lock. Post-lock analyses (Entries 29–30, 33–36) use the locked code unchanged and are labelled as post-lock wherever they are reported.
