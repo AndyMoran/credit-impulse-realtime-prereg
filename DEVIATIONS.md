@@ -44,5 +44,6 @@ The full audit log (Entries 1–58) is in `protocol_post_lock/protocol_v2.3_audi
 | 56 | 22 Oct | Reader feedback: power and the 6% range reconciled in the abstract, §6 and §7; horizon convention stated in Box 1; gap described as a guide for countercyclical buffers; Barnichon–Nekarda reference completed. DOIs not added (could not be verified). | Yes |
 | 57 | 22 Oct | Framing feedback: the methods lesson named as a case study of the methods actually tested; power and interval claims each qualified; the episode described precisely (variation in the crisis, losses in the recovery forecasts); the turning-point lesson recast as a hypothesis for future testing. | Yes |
 | 58 | 22 Oct | Precision edits: the 6%–44% range labelled a post-lock sensitivity interval; horizon stated as quarter o + 4 in §1 and Box 1; SPF result named as the credit-corrected median SPF forecast (2.5% worse); methods scoped in the §1 contributions. | Yes |
+| 59 | 22 Oct | Release v2.2 published (tag `v2.2-publish`, commit f2a5f39), archived at DOI 10.5281/zenodo.23560860. | Yes |
 
 No confirmatory analysis code, specification, sample or decision rule was changed after lock. Post-lock analyses (Entries 29–30, 33–36) use the locked code unchanged and are labelled as post-lock wherever they are reported.

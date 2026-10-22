@@ -9,7 +9,7 @@ The package is split across four GitHub releases of `AndyMoran/credit-impulse-re
 | `v1.0-lock` | 10.5281/zenodo.23477871 | Locked protocol, all analysis code, real-time credit vintages, `MANIFEST.txt` |
 | `v2.0-results` | 10.5281/zenodo.23479717 | The single locked run (`results/`), Figures 1–6, `figures.py` |
 | `v2.1-verification` | 10.5281/zenodo.23497087 | Revised paper, post-lock analyses, pandemic-period illustration, verification kit |
-| `v2.2` (this release) | assigned by Zenodo on publication | Working paper v2.2 (style revision; no result changed), audit log to Entry 58 |
+| `v2.2-publish` | 10.5281/zenodo.23560860 | Working paper v2.2 (style revision; no result changed), audit log to Entry 58 |
 
 The tag `pandemic-plan` (commit b9a7fc0) freezes the pandemic-period plan and script before any 2020 data were downloaded.
 
