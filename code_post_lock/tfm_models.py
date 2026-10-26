@@ -71,10 +71,17 @@ class TFM25:
     def _pack(point, quant):
         point = np.asarray(point); quant = np.asarray(quant)
         # TimesFM 2.5 returns 10 outputs per step: index 0 = mean, 1..9 = quantiles 0.1..0.9.
-        return dict(point=point[:STEPS].astype(float), q=quant[:STEPS, 1:10].astype(float))
+        # With return_backcast=True (required by XReg), model.forecast() returns the BACKCAST over the context
+        # followed by the forecast, so the forecast is the LAST STEPS rows (Entry 68: the first run took the first
+        # rows, i.e. backcast values, for the GDP-only TimesFM 2.5 forecasts). forecast_with_covariates() already
+        # strips the backcast and returns exactly STEPS rows, so the last STEPS rows are right for both routes.
+        return dict(point=point[-STEPS:].astype(float), q=quant[-STEPS:, 1:10].astype(float))
 
     def forecast(self, inputs):
         point, quant = self.model.forecast(horizon=STEPS, inputs=[np.asarray(y, float) for y in inputs])
+        n_back = (MAX_CONTEXT // 32 - 1) * 32                     # backcast length: (context patches - 1) x 32
+        if point.shape[1] != n_back + STEPS:
+            raise ValueError(f'unexpected TimesFM 2.5 output length {point.shape[1]} (expected {n_back + STEPS})')
         return [self._pack(p, q) for p, q in zip(point, quant)]
 
     def forecast_xreg(self, inputs, lag_covs):

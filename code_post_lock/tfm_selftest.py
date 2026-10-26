@@ -126,6 +126,14 @@ def part_b(name):
     ok &= check((neg < 0).all(), 'a series shifted below zero gets negative forecasts (no clamp)')
     out2 = m.forecast(list(ys))
     ok &= check(all(np.allclose(a['point'], b['point']) for a, b in zip(out, out2)), 'repeat run gives identical forecasts')
+    # Added after Entry 68: the forecast must come from the END of the series. Shifting only the last 12
+    # observations by +15 must move the step-1 forecast up by a lot; backcast values would barely move.
+    base_y = np.asarray(ys[0], float); shifted = base_y.copy(); shifted[-12:] += 15.0
+    a, b = m.forecast([base_y, shifted])
+    ok &= check(b['point'][0] - a['point'][0] > 5.0,
+                f'forecast responds to the end of the series (step-1 shift {b["point"][0] - a["point"][0]:+.2f} for a +15 late shift)')
+    ok &= check(all((r['q'][:, 4] - r['q'][:, 0] > 1e-3).all() for r in out),
+                '10th percentile lies strictly below the median at every step (quantiles not degenerate)')
 
     if hasattr(m, 'forecast_xreg'):
         H, k = 4, 2

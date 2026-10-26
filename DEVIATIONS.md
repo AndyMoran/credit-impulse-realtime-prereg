@@ -46,4 +46,14 @@ The full audit log (Entries 1–58) is in `protocol_post_lock/protocol_v2.3_audi
 | 58 | 22 Oct | Precision edits: the 6%–44% range labelled a post-lock sensitivity interval; horizon stated as quarter o + 4 in §1 and Box 1; SPF result named as the credit-corrected median SPF forecast (2.5% worse); methods scoped in the §1 contributions. | Yes |
 | 59 | 22 Oct | Release v2.2 published (tag `v2.2-publish`, commit f2a5f39), archived at DOI 10.5281/zenodo.23560860. | Yes |
 
+### TimesFM extension (plan `timesfm/PLAN.md`, tag `timesfm-plan`)
+
+| Entry | Date (2026) | What | Results seen? |
+|---|---|---|---|
+| 62–65 | 26 Oct | Plan written and revised before freezing: checkpoints and package versions recorded; training-data check (TimesFM 2.5 High, TimesFM 3.0 Uncertain); credit alignment rules with a value-by-value self-test; numerical L1 flag (0.10 / 0.20, OR). The AR(2)'s own L1 values (0.995, 0.984) were computed by the pipeline test before freezing and are disclosed in the plan. | No |
+| 66 | 26 Oct | Plan frozen: tag `timesfm-plan` on commit 7406c2c, 17:26:15 UTC; `PLAN_LOCK.json` committed (58fd7e2). | No |
+| 67 | 26 Oct | First attempt stopped while loading data (`openpyxl` missing), before any model was called; results folder empty. `openpyxl` 3.1.5 installed; other packages unchanged. | No |
+| 68 | 26 Oct | Run 1 completed (18:05:43 UTC). **Defect:** with `return_backcast=True`, TimesFM 2.5's `forecast()` returns the backcast before the forecast, and the wrapper took the first five rows, so the GDP-only TimesFM 2.5 "forecasts" were backcast values. Invalid: F1, F4, the TimesFM 2.5 premium, its tail measures and its L1/L2. Valid: F2, F3, the TimesFM 3.0 premium and checks, and the TimesFM 2.5 forecasts with credit. Run 1 outputs kept (`results.json` 9960e6f8…). | Yes |
+| 69 | 26 Oct | **Declared deviation.** The author chose to fix the defect and run once more (run 2), reporting both runs. Fix: `_pack` takes the last five rows; `forecast()` checks the output length; two new self-test checks (the forecast must respond to the end of the series; the 10th percentile must lie below the median). The fix is committed before run 2. Run 2's TimesFM 3.0 results must equal run 1's. | Yes |
+
 No confirmatory analysis code, specification, sample or decision rule was changed after lock. Post-lock analyses (Entries 29–30, 33–36) use the locked code unchanged and are labelled as post-lock wherever they are reported.
