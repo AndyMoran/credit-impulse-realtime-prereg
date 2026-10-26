@@ -1,0 +1,53 @@
+{
+ "plan": "timesfm/PLAN.md",
+ "tag": "timesfm-plan",
+ "tag_object": "d8a0308f65834e0e841f8180d47d8cb96fa18637",
+ "tag_commit": "7406c2cc2127958b6dc791bad0943991b6ea5d26",
+ "tag_time": "2026-10-26T17:26:15+00:00",
+ "tagger": "Andy Moran",
+ "repository": "https://github.com/AndyMoran/credit-impulse-realtime-prereg",
+ "files_sha256": {
+  "timesfm/PLAN.md": "40ae240fc7fe95b4f265a821c63d654c0260c90804748b1c5725ebf6f9b68e61",
+  "code_post_lock/tfm_data.py": "ea06196e522cd1bcaf3245906a21a5b38ae827d7a33a1db345052495839496b8",
+  "code_post_lock/tfm_models.py": "19dc9e04c4058212b1c7ad7dcd57a921a1f6fa3d53af30052f30f1b539ff5208",
+  "code_post_lock/tfm_selftest.py": "38076340c08abfad8e2b8341c7b312fccbc4f39accad11d3fd2502f02df29e10",
+  "code_post_lock/run_timesfm.py": "23d702142a7d3258fde3b7c22e1e45fea22aab65df08cd3e3202f8287fc7c089"
+ },
+ "private_files_sha256": {
+  "tfm30_private.py (not published; TimesFM Non-Commercial License v1.0)": "3d40501019517ffb13798460b6520ceb01b561ebadda7a7c9ea292508a1f4cf3"
+ },
+ "locked_phase2_sha256": "da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e",
+ "checkpoints": {
+  "tfm25": {
+   "repo": "google/timesfm-2.5-200m-pytorch",
+   "revision": "1d952420fba87f3c6dee4f240de0f1a0fbc790e3",
+   "weights_sha256": "2f776efe6245e42b24bc4153ffdf61810140210e4bd3b01fb21f7aa779ab6ce8"
+  },
+  "tfm30": {
+   "repo": "google/timesfm-3.0-pytorch",
+   "revision": "43046b85ec22d584a13f8098c2ed39c889e129c2",
+   "weights_sha256": "a7592b0a8432baee54483254e5647856911ce69e09d09a9bb65904b2d98f17da"
+  }
+ },
+ "packages": {
+  "timesfm": "3.0.2",
+  "torch": "2.14.1",
+  "jax": "0.10.2",
+  "jaxlib": "0.10.2",
+  "scikit-learn": "1.9.1",
+  "numpy": "2.4.6",
+  "huggingface_hub": "2.3.0",
+  "safetensors": "0.8.0",
+  "python": "3.11.17"
+ },
+ "leakage_L0": {
+  "tfm25": "High",
+  "tfm30": "Uncertain"
+ },
+ "L1_thresholds": {
+  "excess_all": 0.1,
+  "excess_2010_11": 0.2,
+  "rule": "OR"
+ },
+ "status": "No real US series passed to TimesFM and no TimesFM forecast of a real target computed or seen before this lock (author confirmation; audit log Entry 66)."
+}
