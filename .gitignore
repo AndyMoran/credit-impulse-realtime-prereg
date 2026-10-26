@@ -1,0 +1,4 @@
+# TimesFM 3.0 back-end: not for publication (TimesFM Non-Commercial License v1.0; timesfm/PLAN.md, Section 2)
+tfm30_private.py
+# Model weights are never committed
+*.safetensors

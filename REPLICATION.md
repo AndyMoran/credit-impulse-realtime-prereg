@@ -62,6 +62,8 @@ work/p2/figures.py                           <- v2.0-results code_post_lock/
 work/p2/post_lock/*.py                       <- v2.1 code_post_lock/
 work/p2/post_lock/out/                       <- v2.1 results_post_lock/ (to reuse the simulation outputs)
 work/pandemic/                               <- v2.1 pandemic/
+work/p2/post_lock/tfm_*.py, run_timesfm.py   <- timesfm-plan code_post_lock/ (TimesFM extension)
+work/timesfm/PLAN.md                         <- timesfm-plan timesfm/
 ```
 
 ## 4. Instructions
