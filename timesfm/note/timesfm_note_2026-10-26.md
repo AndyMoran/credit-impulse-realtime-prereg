@@ -2,7 +2,7 @@
 
 26 October 2026
 
-**Andy Moran**, Heaviside Analytics. A preregistered extension to the working paper "Did the Credit Impulse Help Forecasters in Real Time?" (v2.2, DOI 10.5281/zenodo.23560860).
+**Andy Moran**, Heaviside Analytics. A preregistered extension to the working paper "Did the Credit Impulse Help Forecasters in Real Time?" (v2.2, DOI 10.5281/zenodo.23560860). This note is archived at DOI 10.5281/zenodo.23675487.
 
 ## Summary
 
@@ -132,7 +132,7 @@ Neither L1 nor L2 raised a flag for either model. TimesFM 2.5's L0 rating of Hig
 
 The AR(2) values were computed by the pipeline test before freezing and are disclosed in the plan; the TimesFM values were not known before the run. The 20 per-draw ratios are in the appendix and in `results.json`.
 
-**L2, shape-matched placebo.** Fifty synthetic GDP histories copy the 2008–12 path, rescaled by 0.8–1.2 with revision-sized noise, after AR(2)-simulated earlier decades. Each model forecasts the eight origins 2010Q1–2011Q4, and its RMSE is divided by the AR(2)'s on the same series. A flag needed the real-series ratio to fall below the placebos' 10th percentile. The AR(2) is re-estimated on each synthetic series, and the real series is the 2026Q3 vintage.
+**L2, shape-matched placebo.** Fifty synthetic GDP histories copy the 2008–12 path, rescaled by 0.8–1.2 with revision-sized noise, after AR(2)-simulated earlier decades. Each model forecasts the eight origins 2010Q1–2011Q4, and its RMSE is divided by the AR(2)'s on the same series. A flag needed the real-series ratio to fall below the placebos' 10th percentile. The AR(2) is re-estimated on each synthetic series, and the real series is the 2026Q3 vintage. L2 therefore runs on revised data throughout, to match the placebos, which have no vintages. Its real-series ratios (0.882 and 0.903) are not the real-time ratios over the same eight origins in Section 3 (about 0.95 for both models), and L2, unlike L1, tests memory in revised-data space, the space the L0 concern is about.
 
 | Model | Real-series ratio | Placebo 10th percentile | Placebo median | Real series' percentile | Flag |
 | --- | --- | --- | --- | --- | --- |
