@@ -1,0 +1,50 @@
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+WARNING:jax._src.xla_bridge:An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+{
+ "F1 TimesFM 2.5 vs AR(2)": [
+  1.0149939414783313,
+  [
+   0.95288197608712,
+   1.1200288353864665
+  ]
+ ],
+ "F4 TimesFM 2.5 + credit (XReg) vs TimesFM 2.5": [
+  1.0468008097048993,
+  [
+   0.9958617210634637,
+   1.1605051094092713
+  ]
+ ],
+ "F5 premium, TimesFM 2.5 + credit": [
+  0.008928238963055835,
+  [
+   -0.02850139079135926,
+   0.031451202992809166
+  ]
+ ],
+ "F2 TimesFM 3.0 vs AR(2)": [
+  1.0037791484437495,
+  [
+   0.9521036821662198,
+   1.0811788921503585
+  ]
+ ],
+ "F3 TimesFM 3.0 + credit vs TimesFM 3.0": [
+  1.0183060413352512,
+  [
+   0.9663213641406309,
+   1.0534928757092532
+  ]
+ ],
+ "F5 premium, TimesFM 3.0 + credit": [
+  0.002356971590162127,
+  [
+   -0.015924581142326276,
+   0.012610944520550527
+  ]
+ ]
+}
+outputs: ['forecasts.csv', 'results.json', 'table_2010_12.csv']
