@@ -4,6 +4,8 @@ A preregistered extension to the working paper *Did the Credit Impulse Help Fore
 
 **Result.** Given only real-time data, neither TimesFM 2.5 nor TimesFM 3.0 forecast US GDP growth four quarters ahead credibly better than a direct AR(2) over 78 origins, 1999Q3–2018Q4. Adding the real-time credit impulse did not credibly improve either model, and the revised-credit premium was small for both. The credit comparisons are underpowered: read them as "no credible improvement detected", not "no effect".
 
+**Archived:** release `timesfm-note`, DOI [10.5281/zenodo.23675487](https://doi.org/10.5281/zenodo.23675487).
+
 **Read the note:** [`note/timesfm_note_2026-10-26.pdf`](note/timesfm_note_2026-10-26.pdf) (also as [Markdown](note/timesfm_note_2026-10-26.md)).
 
 ## Timeline
