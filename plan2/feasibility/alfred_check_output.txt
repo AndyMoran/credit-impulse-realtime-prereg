@@ -1,0 +1,3 @@
+GACDFNA066MNFRBPHI: 565 months compared, 0 differ, max |diff| = 0.000
+GACDFSA066MSFRBPHI: 565 months compared, 405 differ, max |diff| = 7.100
+NOCDFNA066MNFRBPHI: 565 months compared, 0 differ, max |diff| = 0.000
