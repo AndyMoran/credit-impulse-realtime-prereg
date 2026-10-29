@@ -1,0 +1,18 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 266.31it/s]
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+{
+ "gates": {
+  "1_locked_benchmark": true,
+  "1_frozen_scripts": true,
+  "2_credit_rule_B": true,
+  "3_shapes_finite": true,
+  "4_repeatable": true,
+  "5_responsive": true,
+  "6_weights_hash": true,
+  "6_timesfm_file_hash": true
+ },
+ "gate_passed": true
+}
