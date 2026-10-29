@@ -1,0 +1,40 @@
+{
+ "plan": "plan2/PLAN.md",
+ "tag": "plan2",
+ "tag_object": "5ef6a5c641819ca585265a2fafa05207c3ca8db0",
+ "tag_commit": "1c7393e6a1c8f954f76dfa8e4af84457d940ba92",
+ "tag_time": "2026-10-29T17:21:20+00:00",
+ "tagger": "Andy Moran",
+ "repository": "https://github.com/AndyMoran/credit-impulse-realtime-prereg",
+ "files_sha256": {
+  "plan2/PLAN.md": "ea610d84b0f88b0916fda35403a64fc0376844000c05f16db34aad33949ca369",
+  "plan2/release_dates.csv": "c018f5bb0338945ab1978f755bfc3b654dab2aa2a2cf8af9e8d5913ef8e0810c",
+  "plan2/power_coverage.json": "e8bf7ff82c7400adee54ba469c1dc7f63db943511ad15b799f6dc093bab4f6d3",
+  "code_post_lock/plan2_data.py": "3575feb2fbeff5540b9337ccfc155737188c994b9c95e181efa738bbe4f2074c",
+  "code_post_lock/plan2_fetch.py": "63ba5f0a7a6ef6464cff803e1ec07da96dba42bb72c98ca7bb349fda561c2be7",
+  "code_post_lock/plan2_models.py": "429ea45001e0b5ccd90788b339ba4057fde6b6fd7f025380972170927e7c1905",
+  "code_post_lock/plan2_power.py": "96295e213b12ea27980e14e62ced6a49ed1b8432786549cba318800c06c5cc93",
+  "code_post_lock/plan2_selftest.py": "b84d284b4f394bdf398e9f2836136058736988b70e2214b3524ea4f8c0475cf2",
+  "code_post_lock/run_plan2.py": "f424837db177399362b95daf23e3f815a1414d3442777b2dfe937b8e9726bbb7"
+ },
+ "locked_phase2_sha256": "da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e",
+ "locked_test_phase2_sha256": "f7d71fbfba753c36857fa52c6b06053fc007184c93e18773a254217b4dfc0036",
+ "survey_vintage": "2026-10-15",
+ "survey_months": "1968-05 to 2019-12",
+ "survey_sha256": {
+  "GACDFNA066MNFRBPHI": "ff6a27903bfbf08d53bc80c3834c272a229568db83a98f17e8f26930e7b9fdf4",
+  "NOCDFNA066MNFRBPHI": "01e2835e0bb763c591b39e3bd567d78fc1182a0712797219abe1b74894bc7e45"
+ },
+ "seasonal_method": "A, full pre-origin history (drift rule not triggered)",
+ "seeds": {
+  "bootstrap": 20261019,
+  "placebo": 20261201,
+  "effect_size_search": 20261202,
+  "simulation": 20261203
+ },
+ "packages": {
+  "note": "the locked study's pinned environment (timesfm/PLAN_LOCK.json), plus:",
+  "requests": "2.34.2"
+ },
+ "status": "No Plan 2 model fitted to real GDP before this lock: self-test, pipeline test and power check used synthetic GDP only (plan2/PLAN.md, Section 13; author confirmation)."
+}
