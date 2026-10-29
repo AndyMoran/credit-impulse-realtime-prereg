@@ -4,6 +4,8 @@ At which horizon does the Philadelphia Fed's Manufacturing Business Outlook Surv
 
 **Result.** At h = 1, the primary test, the survey did not improve the AR(2) credibly (ratio 0.930; 90% interval 0.869–1.038); reliable detection needed a ratio of about 0.85. The survey's ratios rose monotonically with the horizon, consistent with a fading relative advantage, but the rise was not established. The credit impulse did not improve the AR(2) at any horizon. Details and caveats: `RESULTS.md`.
 
+**Archived:** release `plan-2-results`, DOI [10.5281/zenodo.23777951](https://doi.org/10.5281/zenodo.23777951).
+
 | File | What it is |
 | --- | --- |
 | `PLAN.md` | The preregistered plan, frozen at tag `plan2` |
