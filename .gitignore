@@ -2,3 +2,5 @@
 tfm30_private.py
 # Model weights are never committed
 *.safetensors
+# Philadelphia Fed survey data: research use only, not redistributed (plan2/PLAN.md, Section 2). Fetch with plan2_fetch.py.
+plan2/data/
