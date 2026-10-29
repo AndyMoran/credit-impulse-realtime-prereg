@@ -1,0 +1,16 @@
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+/home/ndrew/miniconda3/envs/tfm/lib/python3.11/site-packages/openpyxl/worksheet/header_footer.py:48: UserWarning: Cannot parse header or footer so it will be ignored
+  warn("""Cannot parse header or footer so it will be ignored""")
+{
+ "gates": {
+  "1_locked_h4": true,
+  "1_fit_equals_locked_function": true,
+  "2_release_rule": true,
+  "3_seasonal_recomputed": true,
+  "4_finite_and_responsive": true,
+  "5_placebo_not_credibly_below_1": true,
+  "6_survey_hashes": true
+ },
+ "gate_passed": true
+}

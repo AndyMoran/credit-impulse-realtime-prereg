@@ -2,9 +2,15 @@
 
 At which horizon does the Philadelphia Fed's Manufacturing Business Outlook Survey earn its place beside an AR(2)? A preregistered test on real-time US GDP, 1999–2019.
 
+**Result.** At h = 1, the primary test, the survey did not improve the AR(2) credibly (ratio 0.930; 90% interval 0.869–1.038); reliable detection needed a ratio of about 0.85. The survey's ratios rose monotonically with the horizon, consistent with a fading relative advantage, but the rise was not established. The credit impulse did not improve the AR(2) at any horizon. Details and caveats: `RESULTS.md`.
+
 | File | What it is |
 | --- | --- |
 | `PLAN.md` | The preregistered plan, frozen at tag `plan2` |
+| `PLAN2_LOCK.json` | The lock: tag, file hashes, survey hashes, seeds |
+| `RESULTS.md` | **The results**, in the plan's pre-written sentences, with one declared wording deviation |
+| `results_attempt1/` | The official run (attempt 1, all gates passed): `results.json`, `forecasts.csv`, `run_log.txt` |
+| `figures/` | The ratio curve and coefficient curve, and the script that draws them from `results.json` |
 | `release_dates.csv` | The survey reading used at each of the 78 origins, its release time and the next release |
 | `power_coverage.json` | The pre-freeze power and coverage check (Section 13) |
 | `feasibility/` | The ALFRED revision check that made the plan possible |

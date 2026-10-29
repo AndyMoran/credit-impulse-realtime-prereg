@@ -1,0 +1,396 @@
+{
+ "mode": "real",
+ "run_utc": "2026-10-29T17:28:18+00:00",
+ "python": "3.11.17",
+ "scripts": {
+  "plan2_data.py": "3575feb2fbeff5540b9337ccfc155737188c994b9c95e181efa738bbe4f2074c",
+  "plan2_models.py": "429ea45001e0b5ccd90788b339ba4057fde6b6fd7f025380972170927e7c1905",
+  "run_plan2.py": "f424837db177399362b95daf23e3f815a1414d3442777b2dfe937b8e9726bbb7"
+ },
+ "phase2": "da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e",
+ "comparisons": {
+  "survey_h0": {
+   "ratio": 0.9128717404090091,
+   "ci90": [
+    0.7776622314186306,
+    1.1230209915908853
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 0.8181786498459541,
+   "p_boot": 0.235,
+   "error_corr": 0.8002104383053797
+  },
+  "credit_h0": {
+   "ratio": 1.0482941855967298,
+   "ci90": [
+    0.9943434888397599,
+    1.085280483682327
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": -1.4312699244203886,
+   "p_boot": 0.8665,
+   "error_corr": 0.9858864048594468
+  },
+  "survey_h1": {
+   "ratio": 0.9299061718821808,
+   "ci90": [
+    0.8691358795945454,
+    1.038457491503427
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.407127575483904,
+   "p_boot": 0.176,
+   "error_corr": 0.9290078395218563
+  },
+  "credit_h1": {
+   "ratio": 1.0300063989979635,
+   "ci90": [
+    1.0077328901550493,
+    1.0476082231159287
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": -2.23365733198403,
+   "p_boot": 0.9455,
+   "error_corr": 0.9929979336639223
+  },
+  "survey_h2": {
+   "ratio": 0.9541811891783111,
+   "ci90": [
+    0.9099424604350286,
+    1.0357453559574872
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.1396562767570215,
+   "p_boot": 0.1835,
+   "error_corr": 0.9616468147431546
+  },
+  "credit_h2": {
+   "ratio": 1.0302921202875832,
+   "ci90": [
+    0.978109019976082,
+    1.1033582520518301
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": -1.0061617217090806,
+   "p_boot": 0.8115,
+   "error_corr": 0.9725997630483306
+  },
+  "survey_h4": {
+   "ratio": 0.9897721838240556,
+   "ci90": [
+    0.9631438007959495,
+    1.0555324968001432
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 0.36512065177945946,
+   "p_boot": 0.315,
+   "error_corr": 0.9747654054986459
+  },
+  "credit_h4": {
+   "ratio": 1.1064683731508078,
+   "ci90": [
+    0.9836713290435413,
+    1.3557883319866129
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": -1.172570810740454,
+   "p_boot": 0.852,
+   "error_corr": 0.8886795879643984
+  },
+  "Q1": {
+   "ratio": 0.9299061718821808,
+   "ci90": [
+    0.8691358795945454,
+    1.038457491503427
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.407127575483904,
+   "p_boot": 0.176,
+   "error_corr": 0.9290078395218563
+  },
+  "Q2_R4_minus_R1": {
+   "diff": 0.0598660119418748,
+   "ci90": [
+    -0.029029910878987764,
+    0.14097798592886546
+   ]
+  },
+  "Q4": {
+   "ratio": 0.9812141549474233,
+   "ci90": [
+    0.9622275887133881,
+    0.997979267617678
+   ],
+   "credible_improvement": true,
+   "n": 78,
+   "hln_t": 1.6981434141348082,
+   "p_boot": 0.1015,
+   "error_corr": 0.9938423201393524
+  },
+  "Q5": {
+   "ratio": 0.9926507298445119,
+   "ci90": [
+    0.9297339085947286,
+    1.0967958096540698
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 0.187291639811451,
+   "p_boot": 0.4695,
+   "error_corr": 0.9552010584201877
+  },
+  "Q6": {
+   "h0": {
+    "ratio": 0.8592561890351215,
+    "ci90": [
+     0.7410463829947989,
+     1.0718134142598046
+    ],
+    "credible_improvement": false,
+    "n": 78,
+    "hln_t": 1.355093465430805,
+    "p_boot": 0.139,
+    "error_corr": 0.7996422683517901
+   },
+   "h1": {
+    "ratio": 0.9680174824210686,
+    "ci90": [
+     0.876423949720975,
+     1.1145431817046063
+    ],
+    "credible_improvement": false,
+    "n": 78,
+    "hln_t": 0.5395501431278842,
+    "p_boot": 0.352,
+    "error_corr": 0.9025848796988226
+   },
+   "h2": {
+    "ratio": 0.9490232684657753,
+    "ci90": [
+     0.918433408715771,
+     1.0027598327748297
+    ],
+    "credible_improvement": false,
+    "n": 78,
+    "hln_t": 1.641686028649561,
+    "p_boot": 0.0995,
+    "error_corr": 0.972934467676008
+   },
+   "h4": {
+    "ratio": 0.9763089557694137,
+    "ci90": [
+     0.964259633832148,
+     1.0035726716910154
+    ],
+    "credible_improvement": false,
+    "n": 78,
+    "hln_t": 1.302142724863353,
+    "p_boot": 0.0935,
+    "error_corr": 0.990925606197692
+   }
+  },
+  "Q7": {
+   "ratio": 0.902234256785876,
+   "ci90": [
+    0.8381408093085511,
+    1.0126714199838898
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.7771564416730825,
+   "p_boot": 0.1235,
+   "error_corr": 0.9230539309576054
+  },
+  "Q8a": {
+   "ratio": 1.023308683813707,
+   "ci90": [
+    0.951975509274206,
+    1.1092234350463301
+   ],
+   "credible_improvement": false,
+   "n": 70,
+   "hln_t": -0.494595358628607,
+   "p_boot": 0.733,
+   "error_corr": 0.9003964763348723
+  },
+  "Q8b": {
+   "ratio": 0.9409807561585216,
+   "ci90": [
+    0.8758537728095747,
+    1.0651236090256333
+   ],
+   "credible_improvement": false,
+   "n": 74,
+   "hln_t": 1.1257493229406277,
+   "p_boot": 0.217,
+   "error_corr": 0.9359817706711282
+  }
+ },
+ "exploratory": {
+  "post85_survey_h0": {
+   "ratio": 0.9150352750143266,
+   "ci90": [
+    0.8514222166243489,
+    1.009355880928006
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.4059800521707266,
+   "p_boot": 0.1155,
+   "error_corr": 0.944205312277288
+  },
+  "post85_survey_h1": {
+   "ratio": 0.951634006238087,
+   "ci90": [
+    0.9206911035397323,
+    0.9837739094120554
+   ],
+   "credible_improvement": true,
+   "n": 78,
+   "hln_t": 2.1615770055141414,
+   "p_boot": 0.073,
+   "error_corr": 0.9814214058282941
+  },
+  "post85_survey_h2": {
+   "ratio": 0.9539222933656207,
+   "ci90": [
+    0.8985083268325478,
+    1.0366072747506616
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.1981028534819396,
+   "p_boot": 0.1735,
+   "error_corr": 0.9541477478197405
+  },
+  "post85_survey_h4": {
+   "ratio": 0.9891291516004289,
+   "ci90": [
+    0.9694443798299754,
+    1.0335886791070652
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 0.5248666575905769,
+   "p_boot": 0.2565,
+   "error_corr": 0.9856398803425204
+  },
+  "survey_beyond_credit_h1": {
+   "ratio": 0.9149996157699671,
+   "ci90": [
+    0.8541379530460468,
+    1.0286657244186117
+   ],
+   "credible_improvement": false,
+   "n": 78,
+   "hln_t": 1.6156709216393565,
+   "p_boot": 0.1385,
+   "error_corr": 0.9265984537669801
+  }
+ },
+ "coefficients_last_origin": {
+  "h0": {
+   "coef": 0.09747247750716441,
+   "ci90": [
+    0.07450216259976494,
+    0.11719233104637068
+   ],
+   "rows": 201
+  },
+  "h1": {
+   "coef": 0.06241455820756961,
+   "ci90": [
+    0.03784684603815095,
+    0.08645623474958426
+   ],
+   "rows": 200
+  },
+  "h2": {
+   "coef": 0.04653658704120358,
+   "ci90": [
+    0.013415754000343682,
+    0.07983405381922232
+   ],
+   "rows": 199
+  },
+  "h4": {
+   "coef": 0.031896635282334274,
+   "ci90": [
+    0.0034830053249347106,
+    0.06269184980196717
+   ],
+   "rows": 197
+  }
+ },
+ "placebo": {
+  "ratio": 0.998489463441934,
+  "ci90": [
+   0.9898754388361015,
+   1.011701988299812
+  ],
+  "credible_improvement": false,
+  "n": 78,
+  "hln_t": 0.23408341455414836,
+  "p_boot": 0.368,
+  "error_corr": 0.9976303426386647
+ },
+ "gates": {
+  "1_locked_h4": true,
+  "1_fit_equals_locked_function": true,
+  "2_release_rule": true,
+  "3_seasonal_recomputed": true,
+  "4_finite_and_responsive": true,
+  "5_placebo_not_credibly_below_1": true,
+  "6_survey_hashes": true
+ },
+ "gate_passed": true,
+ "plan_lock": {
+  "plan": "plan2/PLAN.md",
+  "tag": "plan2",
+  "tag_object": "5ef6a5c641819ca585265a2fafa05207c3ca8db0",
+  "tag_commit": "1c7393e6a1c8f954f76dfa8e4af84457d940ba92",
+  "tag_time": "2026-10-29T17:21:20+00:00",
+  "tagger": "Andy Moran",
+  "repository": "https://github.com/AndyMoran/credit-impulse-realtime-prereg",
+  "files_sha256": {
+   "plan2/PLAN.md": "ea610d84b0f88b0916fda35403a64fc0376844000c05f16db34aad33949ca369",
+   "plan2/release_dates.csv": "c018f5bb0338945ab1978f755bfc3b654dab2aa2a2cf8af9e8d5913ef8e0810c",
+   "plan2/power_coverage.json": "e8bf7ff82c7400adee54ba469c1dc7f63db943511ad15b799f6dc093bab4f6d3",
+   "code_post_lock/plan2_data.py": "3575feb2fbeff5540b9337ccfc155737188c994b9c95e181efa738bbe4f2074c",
+   "code_post_lock/plan2_fetch.py": "63ba5f0a7a6ef6464cff803e1ec07da96dba42bb72c98ca7bb349fda561c2be7",
+   "code_post_lock/plan2_models.py": "429ea45001e0b5ccd90788b339ba4057fde6b6fd7f025380972170927e7c1905",
+   "code_post_lock/plan2_power.py": "96295e213b12ea27980e14e62ced6a49ed1b8432786549cba318800c06c5cc93",
+   "code_post_lock/plan2_selftest.py": "b84d284b4f394bdf398e9f2836136058736988b70e2214b3524ea4f8c0475cf2",
+   "code_post_lock/run_plan2.py": "f424837db177399362b95daf23e3f815a1414d3442777b2dfe937b8e9726bbb7"
+  },
+  "locked_phase2_sha256": "da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e",
+  "locked_test_phase2_sha256": "f7d71fbfba753c36857fa52c6b06053fc007184c93e18773a254217b4dfc0036",
+  "survey_vintage": "2026-10-15",
+  "survey_months": "1968-05 to 2019-12",
+  "survey_sha256": {
+   "GACDFNA066MNFRBPHI": "ff6a27903bfbf08d53bc80c3834c272a229568db83a98f17e8f26930e7b9fdf4",
+   "NOCDFNA066MNFRBPHI": "01e2835e0bb763c591b39e3bd567d78fc1182a0712797219abe1b74894bc7e45"
+  },
+  "seasonal_method": "A, full pre-origin history (drift rule not triggered)",
+  "seeds": {
+   "bootstrap": 20261019,
+   "placebo": 20261201,
+   "effect_size_search": 20261202,
+   "simulation": 20261203
+  },
+  "packages": {
+   "note": "the locked study's pinned environment (timesfm/PLAN_LOCK.json), plus:",
+   "requests": "2.34.2"
+  },
+  "status": "No Plan 2 model fitted to real GDP before this lock: self-test, pipeline test and power check used synthetic GDP only (plan2/PLAN.md, Section 13; author confirmation)."
+ }
+}
