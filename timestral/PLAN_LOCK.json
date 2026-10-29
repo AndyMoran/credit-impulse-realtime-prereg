@@ -1,0 +1,43 @@
+{
+ "plan": "timestral/PLAN.md",
+ "tag": "timestral-plan",
+ "tag_object": "ee8d05ae47489efa3694f8e8a3bfbf9d39d1cef6",
+ "tag_commit": "5e95a2517a30d54be745eb76d3094a377fb8c229",
+ "tag_time": "2026-10-29T20:55:37+00:00",
+ "tagger": "Andy Moran",
+ "repository": "https://github.com/AndyMoran/credit-impulse-realtime-prereg",
+ "files_sha256": {
+  "timestral/PLAN.md": "ec3e7065294d40be0d7876b2adc9fe95dc1dda53b4e47e69d55acc0f00f1a040",
+  "code_post_lock/tsl_models.py": "33fb1b23cc6ab40801b8e4a4f4b4dbab0b67cce047cd4051d07087c1041f5ccc",
+  "code_post_lock/tsl_selftest.py": "7954a19d67412ebf7a1a3f0d2b80a1431a4fe3a64f06ec2aba6e8918837fc44e",
+  "code_post_lock/run_timestral.py": "e8c62a2e4899013fe92d8abccaa62637af62c133b58b2f8f6ba0d120ed14d3fe",
+  "code_post_lock/tfm_data.py": "ea06196e522cd1bcaf3245906a21a5b38ae827d7a33a1db345052495839496b8",
+  "code_post_lock/run_timesfm.py": "23d702142a7d3258fde3b7c22e1e45fea22aab65df08cd3e3202f8287fc7c089"
+ },
+ "locked_phase2_sha256": "da697030f2349feae24dc79a3dfcbb786552b62186ffbf624a027c591814766e",
+ "timesfm_forecasts_sha256": "c6b85a446ae6fe6b8126d57f662035004bccc89e8bc205b420a2c28977d276c7",
+ "checkpoint": {
+  "repo": "mistralai/Timestral-209M",
+  "revision": "9874d252ab0aae16f7f7c999f98f98d6ad7d8365",
+  "files_sha256": {
+   "model.safetensors": "1456effb9927e3daa8c7234f10497e3424233869245a9c72b8ecebaf7ad2b7fa",
+   "config.json": "1764139bb6d37ee5ff543f470495c086cfa6c373f7134fc61c7e3d844538bfd8",
+   "LICENSE": "648194727930df730890e9f9affdbcc5c930d406d6829559b25ca3d5a973fc8c",
+   "README.md": "f85a2083f1bbb039b3fde4dfd0426ef5af3c1d9ee4cfb4afc3be742336ba64d5"
+  }
+ },
+ "packages": {
+  "timestral": "1.0.0 (github mistralai/timestral @ a534bdbd244d64f3d9d743f46c7bf6fc330ed4ff, installed --no-deps)",
+  "torch": "2.14.1",
+  "numpy": "2.4.6",
+  "note": "otherwise the TimesFM extension's pinned environment (timesfm/PLAN_LOCK.json)"
+ },
+ "settings": "package defaults: symmetric averaging on, non-negative clipping on (never applies to GDP)",
+ "leakage_L0": "Uncertain",
+ "L1_thresholds": {
+  "excess_all": 0.1,
+  "excess_2010_11": 0.2,
+  "rule": "OR"
+ },
+ "status": "No Timestral forecast of any real target computed or seen before this lock; Timestral run only on synthetic series (author confirmation, 29 October 2026)."
+}
