@@ -4,6 +4,8 @@ A preregistered extension to the TimesFM note (DOI [10.5281/zenodo.23675487](htt
 
 **Result.** Given only real-time data, Timestral-209M did not forecast US GDP growth four quarters ahead credibly better than a direct AR(2) over 78 origins, 1999Q3–2018Q4 (ratio 1.018; 90% interval 0.960–1.093). Adding the real-time credit impulse did not help, and the revised-credit premium was small. Its forecasts were about as accurate as both TimesFM models'.
 
+**Archived:** release `timestral-results`, DOI [10.5281/zenodo.23812724](https://doi.org/10.5281/zenodo.23812724).
+
 | File | What it is |
 | --- | --- |
 | `PLAN.md` | The preregistered plan, frozen at tag `timestral-plan` |
