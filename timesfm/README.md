@@ -42,3 +42,7 @@ Download the checkpoints at the revisions in `PLAN_LOCK.json` (the run script ch
 ## AI use
 
 AI tools (including Claude, Microsoft Copilot, DeepSeek and Z.ai) helped draft text, write and test scripts and check outputs. The defect described in the note's Section 6 was in code written with Claude's help. The author made all design decisions, ran the models and is responsible for the content.
+
+## Related work
+
+Carriero, Pettenuzzo and Shekhar (2026), "MACROCAST: A Vintage-Consistent Time Series Foundation Model for Real-Time Macroeconomic Forecasting", arXiv:2606.28670 (30 June 2026), evaluate off-the-shelf foundation models (Chronos-2 and Moirai2-Small) on 123 monthly FRED-MD series with real-time vintages, August 1999 to December 2024. Against an AR(1), the median error ratios are close to 1 beyond the short term (about 0.99–1.00 at 6 and 12 months); their own small model, trained on vintage-consistent data, beats the AR(1) on most series by small margins. They do not test TimesFM or Timestral, GDP or credit covariates, and their evaluation is not preregistered. Their findings and these are consistent. This work was found after the TimesFM and Timestral plans were frozen and played no part in their design.
