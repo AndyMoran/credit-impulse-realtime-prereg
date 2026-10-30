@@ -76,4 +76,4 @@ Timestral-209M, `mistralai/Timestral-209M` @ `9874d252ab0aae16f7f7c999f98f98d6ad
 
 ## Use of AI
 
-The author is responsible for all design decisions, modelling runs, interpretation, and final content. AI tools (including Claude, Microsoft Copilot, DeepSeek, and Z.ai) were used for drafting text, writing and testing scripts, checking outputs, and performing sanity-checks on reasoning and code. All modelling was executed by the author, who retains full responsibility for the analysis and results.
+The author is responsible for all design decisions, modelling runs, interpretation, and final content. AI tools (including Claude, ChatGPT, Microsoft Copilot, DeepSeek, Kimi, and Z.ai) were used for drafting text, writing and testing scripts, checking outputs, and performing sanity-checks on reasoning and code. All modelling was executed by the author, who retains full responsibility for the analysis and results.

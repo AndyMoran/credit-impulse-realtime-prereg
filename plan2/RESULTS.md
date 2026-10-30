@@ -150,4 +150,4 @@ These notes are not preregistered sentences. They state facts about the numbers 
 
 ## Use of AI
 
-The author is responsible for all design decisions, modelling runs, interpretation, and final content. AI tools (including Claude, Microsoft Copilot, DeepSeek, and Z.ai) were used for drafting text, writing and testing scripts, checking outputs, and performing sanity-checks on reasoning and code. All modelling was executed by the author, who retains full responsibility for the analysis and results.
+The author is responsible for all design decisions, modelling runs, interpretation, and final content. AI tools (including Claude, ChatGPT, Microsoft Copilot, DeepSeek, Kimi, and Z.ai) were used for drafting text, writing and testing scripts, checking outputs, and performing sanity-checks on reasoning and code. All modelling was executed by the author, who retains full responsibility for the analysis and results.
