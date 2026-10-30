@@ -41,7 +41,7 @@ Download the checkpoints at the revisions in `PLAN_LOCK.json` (the run script ch
 
 ## AI use
 
-AI tools (including Claude, ChatGPT, Microsoft Copilot, DeepSeek, Kimi and Z.ai) helped draft text, write and test scripts and check outputs. The defect described in the note's Section 6 was in code written with Claude's help. The author made all design decisions, ran the models and is responsible for the content.
+AI tools (including Claude, ChatGPT, Microsoft Copilot, DeepSeek, Kimi and Z.ai) helped draft text, write and test scripts and check outputs. The work is designed so that AI output is never taken on trust: results are calculated numerically from the data and checked against known ground truths, and assumptions are checked against original sources. The defect described in the note's Section 6 was in code written with Claude's help, and was found by exactly such a check. The author made all design decisions, ran the models and is responsible for the content.
 
 ## Related work
 
